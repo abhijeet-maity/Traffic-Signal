@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('assets/pexels-divineleaders-10086615.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ligh-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding: 12px;
+  gap: 10px;
+  border-radius: 7px;
+}
+.light {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #555;
+}
+.bar {
+  height: 100px;
+  width: 15px;
+  background-color: black;
+  margin-left: 26px;
+}
